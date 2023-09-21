@@ -11,9 +11,6 @@ body {
     text-transform: uppercase;
     background: #002754;
     display: inline-block;
-    position: sticky;
-    top: 0px;
-    z-index: 1;
   }
   
   h2 {
@@ -50,9 +47,6 @@ body {
   
   #space {
     background: #266ef6;
-    position: relative;
-    right: 115px;
-    top: 115px;
   }
   
   #power {
@@ -63,29 +57,18 @@ body {
   
   #soul {
     background: #ff8b00;
-    position: absolute;
-    right: 0;
-    bottom: 0;
   }
   
   #reality {
     background: #ff0130;
-    position: absolute;
-    right: 0;
-    bottom: 150px;
   }
   
   #mind {
     background: #ffd300;
-    position: fixed;
-    right: 0;
   }
   
   #time {
     background: #12e772;
-    position: fixed;
-    right: 0;
-    top: 0;
   }
   
   #scroll {
@@ -94,3 +77,38 @@ body {
   
   /* START BELOW THIS LINE */
   /* position: static; */
+
+  #time {
+    position: fixed;
+    right: 0;
+    top: 0;
+  }
+
+  #mind {
+    position: fixed;
+    right: 0;
+  }
+
+  #reality {
+    position: absolute;
+    right: 0;
+    bottom: 150px;
+  }
+
+  #soul {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  #space {
+    position: relative;
+    right: 115px;
+    top: 115px;
+  }
+
+  h1 {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+  }
