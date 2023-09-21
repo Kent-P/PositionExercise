@@ -115,3 +115,22 @@ body {
     position: relative;
     right: 225px;
   }
+
+  /* bonus */
+
+  #reality {
+    z-index: 3;
+  }
+
+  #time {
+    z-index: 2;
+  }
+
+  #soul {
+    z-index: 1;
+  }
+
+  h2 {
+    position: sticky;
+    top: 65px;
+  }
